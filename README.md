@@ -62,27 +62,41 @@ Want to dig into higher order functions with some simple excercises? Lets go!
 
 1. Look in the files challenges.html and challenges.ts
 2. Edit challenges.ts to solve the problems below
-3. Open challenges.html and the check the Console to review your work
+3. Open challenges.html and check the Console to review your work
 
 (so clone the repo to your computer and then work in your own local copies of these files)
 
-## challenges.ts
+## The Monster class
 ```ts
-blablabla
+class Monster {
+    name: string;
+    age: number;
+    tentacles: number;
+    eyes: number;
+
+    constructor(
+        name: string,
+        age: number,
+        tentacles: number = 2,
+        eyes: number = 2
+    ) {
+        this.name = name;
+        this.age = age;
+        this.tentacles = tentacles;
+        this.eyes = eyes;
+    }
+}
 ```
 
 ## Problems
 Try to solve the problems using higher order functions and the other concepts discussed (see list above).
 
 1. How many tentacles does all the monsters have together?
-2. How many monsters are older than 50?
-   - Log their names
-3. How many monsters have names longer than 7 characters?
-   - Log their names
-4. Log the names of the three oldest monsters
-5. How many monsters have names consisting of more than 2 words?
-   - Log their names
-6. 
+2. How many monsters are older than 50? Also log their names
+3. How many monsters have names longer than 7 characters? Also log their names
+4. Log the names and age of the three oldest monsters
+5. How many monsters have names consisting of more than 2 words? Also log their names
+6. Log the average number of eyes
 
 ## Help
 
