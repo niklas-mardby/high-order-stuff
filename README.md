@@ -9,10 +9,13 @@ A demo and discussion of higher order functions in JS/TS
 - arrow function
 - [callback function (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
 - function chaining
-- JS built-in hof: [forEach](), [map](), [reduce](), [filter]()
+- JS built-in hof: [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [map](), [reduce](), [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 - [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
 - [this (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this#as_an_object_method)
 - Immediately Invoked Function Expression = [IIFE (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/IIFE)
+
+## Honorable mentions
+- (Copy an array)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#copy_an_array] and (Shallow copy)[https://developer.mozilla.org/en-US/docs/Glossary/Shallow_copy]
 
 # Recommended reading
 - [First-class Function (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function)
