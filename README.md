@@ -2,6 +2,7 @@
 A demo and discussion of higher order functions in JS/TS
 
 # What you should dig into
+Terminology you should be familiar with. If you're not then google and read up on them!
 - higher order functions
 - first-class functions / objects
 - expression
@@ -9,13 +10,13 @@ A demo and discussion of higher order functions in JS/TS
 - arrow function
 - [callback function (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
 - function chaining
-- JS built-in hof: [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [map](), [reduce](), [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+- JS built-in hof: [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map), [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce), [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 - [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
 - [this (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this#as_an_object_method)
 - Immediately Invoked Function Expression = [IIFE (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/IIFE)
 
 ## Honorable mentions
-- (Copy an array)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#copy_an_array] and (Shallow copy)[https://developer.mozilla.org/en-US/docs/Glossary/Shallow_copy]
+- [Copy an array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#copy_an_array) and [Shallow copy](https://developer.mozilla.org/en-US/docs/Glossary/Shallow_copy)
 
 # Recommended reading
 - [First-class Function (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function)
@@ -57,7 +58,12 @@ Want to dig into higher order functions with some simple excercises? Lets go!
 Copy the following Typescript code and then edit that code to answer the questions below.
 
 ```ts
-console.log(sum(range(1, 10)));
+blablabla
 ```
 
 bla bla
+
+// Hur skriver jag kod som svarar på frågorna:
+// "Hur många pirater har namn längre än 4 tecken?"
+// "Hur många pirater har namn som bara är ett ord?"
+// "Två ord?"

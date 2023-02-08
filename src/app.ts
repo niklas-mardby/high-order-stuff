@@ -100,14 +100,37 @@ const ps: Pirate[] = pirates.filter((p) => {
 console.log(ps);
 
 // =========== map ===========
+const mappa: string[] = ["Bobbo", "Gugge", "Stina", "Olle", "Kim", "Elisabeth"];
+
+const l: number[] = mappa.map((namn) => {
+    return namn.length;
+});
+
+console.log(l);
 
 
 // =========== reduce ===========
+const array1 = [1, 2, 3, 4];
 
+// 0 + 1 + 2 + 3 + 4
+const initialValue = 0;
+const sumWithInitial = array1.reduce(
+    (accumulator, currentValue) => accumulator + currentValue,
+    initialValue
+);
 
-// ÖVA! ÖVA! ÖVA! (om du vill)
+console.log(sumWithInitial);
+// Expected output: 10
 
-// Hur skriver jag kod som svarar på frågorna:
-// "Hur många pirater har namn längre än 4 tecken?"
-// "Hur många pirater har namn som bara är ett ord?"
-// "Två ord?"
+// chaining example
+
+const personer: string[] = ["Bobbo", "Gugge", "Stina", "Olle", "Kim", "Elisabeth"];
+
+const chain: number = personer.map(
+    (namn) => {
+        return namn.length;
+    }).reduce(
+        (summa, p) => summa + p);
+
+console.log("Antal tecken i allas namn: " + chain);
+
