@@ -7,6 +7,7 @@ A demo and discussion of higher order functions in JS/TS
 - expression
 - anonymous function
 - arrow function
+- JS built-in hof: forEach, map, reduce, filter
 
 # Recommended reading
 - [First-class Function (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function)
