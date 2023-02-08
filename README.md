@@ -2,7 +2,11 @@
 A demo and discussion of higher order functions in JS/TS
 
 # What you should learn
-- ...
+- higher order functions
+- first-class functions / objects
+- expression
+- anonymous function
+- arrow function
 
 # Recommended reading
 - [First-class Function (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function)
