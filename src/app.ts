@@ -93,10 +93,21 @@ class Pirate {
 const pirates: Pirate[] = [new Pirate("John Smith"), new Pirate("Bill")];
 
 const ps: Pirate[] = pirates.filter((p) => {
+    // test som returnerar true eller false
     return p.name.length > 4;
 });
 
 console.log(ps);
 
-// =========== map
-// =========== reduce
+// =========== map ===========
+
+
+// =========== reduce ===========
+
+
+// ÖVA! ÖVA! ÖVA! (om du vill)
+
+// Hur skriver jag kod som svarar på frågorna:
+// "Hur många pirater har namn längre än 4 tecken?"
+// "Hur många pirater har namn som bara är ett ord?"
+// "Två ord?"

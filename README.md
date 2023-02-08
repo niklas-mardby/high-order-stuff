@@ -50,3 +50,14 @@ console.log(sum(range(1, 10)));
 ```
 
 Which one is more likely to contain a bug?
+
+# Challenges
+Want to dig into higher order functions with some simple excercises? Lets go!
+
+Copy the following Typescript code and then edit that code to answer the questions below.
+
+```ts
+console.log(sum(range(1, 10)));
+```
+
+bla bla
