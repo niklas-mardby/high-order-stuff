@@ -58,7 +58,7 @@ console.log(sum(range(1, 10)));
 Which one is more likely to contain a bug?
 
 # Challenge
-Want to dig into higher order functions with some simple excercises? Lets go!
+Want to dig into higher order functions with some simple excercises? Lets go! 💪
 
 1. Look in the files challenges.html and challenges.ts
 2. Edit challenges.ts to solve the problems below
@@ -66,7 +66,7 @@ Want to dig into higher order functions with some simple excercises? Lets go!
 
 (so clone the repo to your computer and then work in your own local copies of these files)
 
-## The Monster class
+## The Monster class  🐙
 ```ts
 class Monster {
     name: string;
