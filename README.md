@@ -10,7 +10,12 @@ Terminology you should be familiar with. If you're not then google and read up o
 - arrow function
 - [callback function (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
 - function chaining
-- JS built-in hof: [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map), [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce), [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+- JS built-in hof: 
+   - [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+   - [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+   - [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+   - [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+   - [sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 - [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
 - [this (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this#as_an_object_method)
 - Immediately Invoked Function Expression = [IIFE (MDN)](https://developer.mozilla.org/en-US/docs/Glossary/IIFE)
@@ -52,18 +57,33 @@ console.log(sum(range(1, 10)));
 
 Which one is more likely to contain a bug?
 
-# Challenges
+# Challenge
 Want to dig into higher order functions with some simple excercises? Lets go!
 
-Copy the following Typescript code and then edit that code to answer the questions below.
+1. Look in the files challenges.html and challenges.ts
+2. Edit challenges.ts to solve the problems below
+3. Open challenges.html and the check the Console to review your work
 
+(so clone the repo to your computer and then work in your own local copies of these files)
+
+## challenges.ts
 ```ts
 blablabla
 ```
 
-bla bla
+## Problems
+Try to solve the problems using higher order functions and the other concepts discussed (see list above).
 
-// Hur skriver jag kod som svarar på frågorna:
-// "Hur många pirater har namn längre än 4 tecken?"
-// "Hur många pirater har namn som bara är ett ord?"
-// "Två ord?"
+1. How many tentacles does all the monsters have together?
+2. How many monsters are older than 50?
+   - Log their names
+3. How many monsters have names longer than 7 characters?
+   - Log their names
+4. Log the names of the three oldest monsters
+5. How many monsters have names consisting of more than 2 words?
+   - Log their names
+6. 
+
+## Help
+
+## Suggested solution
